@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
+import { passport } from "../assets";
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
         {/* Right Side - Profile Image */}
         <div className="flex justify-center md:w-1/2 mt-2 md:mt-0">
           <motion.img
-            src="https://media.licdn.com/dms/image/v2/D4E03AQEClPskA2PmZQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729800879891?e=1735776000&v=beta&t=Tsgz1OMO55JlcKOsSmghmS2pHlNlx7yKmjUzWJ8My4w"
+            src={passport}
             alt="Profile photo"
             width={280}
             className="rounded-lg shadow-xl border-4 border-indigo-500 object-cover"

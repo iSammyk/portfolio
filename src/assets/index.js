@@ -7,7 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import isammy from './isammy.png';
-import iss from './iss.png'
+import iss from './iss.png';
+import passport from './passport.png';
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -30,7 +31,6 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import blog from "./blog.png";
 import ecom from "./ecom.png";
 import kahoot from "./kahoot.png";
@@ -38,6 +38,7 @@ import jumiaclone from "./jumiaclone.png";
 import invest from "./invest.png";
 import figmaclone from "./figmaclone.png";
 import weather from "./weather.png";
+import itext from './itext.png';
 
 
 export {
@@ -68,7 +69,6 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
   isammy,
   iss,
   blog,
@@ -78,4 +78,6 @@ export {
   weather,
   kahoot,
   invest,
+  passport,
+  itext
 };

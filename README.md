@@ -150,7 +150,6 @@ import {
   shopify,
   carrent,
   jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -390,7 +389,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: '',
     source_code_link: "https://github.com/",
   },
 ];

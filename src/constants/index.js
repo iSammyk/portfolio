@@ -21,7 +21,6 @@ import {
   shopify,
   carrent,
   jobit,
-  tripguide,
   threejs,
   blog,
   ecom,
@@ -30,6 +29,7 @@ import {
   weather,
   kahoot,
   invest,
+  itext
 } from "../assets";
 
 export const navLinks = [
@@ -316,25 +316,29 @@ const projects = [
     source_code_link: "https://github.com/iSammyk",
   },
   {
-    name: "Weather App",
+    name: "iText App",
     description:
-      "A user-friendly weather application that provides real-time weather updates based on user-inputted locations. Explore the current weather conditions for any place around the globe with ease.",
+      "iText is a real-time chat application that enables users to sign up, log in, and instantly connect with all other registered members. Every signed-in user is automatically added to each other's contact list, making it easy to discover and message anyone who is currently active.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "socket.io",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind.css",
         color: "pink-text-gradient",
       },
     ],
-    image: weather,
-    website_link: "https://isammy-weather.netlify.app",
+    image: itext,
+    website_link: "https://itexts.netlify.app",
     source_code_link: "https://github.com/iSammyk",
   },
   
